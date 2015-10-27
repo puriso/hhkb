@@ -1,19 +1,16 @@
 # HHKB Professional JP
 
-HHKB用の設定・備忘録を置いて捗るためのひとりプロジェクト。
-
-Macで使用する場合は、mac用ドライバが必要。
-
+HHKB用の設定・備忘録を置いて捗るためのひとりプロジェクト。<br>
+Macで使用する場合は、mac用ドライバが必要。<br>
 <https://www.pfu.fujitsu.com/hhkeyboard/macdownload.html>
 
 基本的にはwindows7用に使用。
 
 ## キーバインド
-IME関係以外はAutoHotkeyを使う。
+IME関係以外はAutoHotkeyを使う。<br>
+IME関係はIMEで設定する。<br>
 
-IME関係はIMEで設定する。
-
-AHKで設定した場合、不安定なときがあるがそのときは潔くレジストリを変更してしまう。
+またAHKで設定した場合、不安定なときがあるがそのときは潔くレジストリを変更してしまう。
 
 ## IME設定
 IMEプロパティ -> 編集操作 -> キー設定 編集
@@ -23,14 +20,13 @@ IMEプロパティ -> 編集操作 -> キー設定 編集
 
 ## レジストリ変更
 
-* 半角・全角 => 右Winキーに変更
+* 半角・全角 => 右Winキーに変更<br>
 (左WinキーはCtrlに変更しているため)
 
 ## ツール
 ### AutoHotKey
 
-ダウンロード -> <http://ahkscript.org/>
-
+ダウンロード -> <http://ahkscript.org/><br>
 日本語を扱う場合はUnicode推奨。
 
 #### Wiki
@@ -59,8 +55,6 @@ IMEプロパティ -> 編集操作 -> キー設定 編集
 
 
 ## Macについて
-自宅用に購入次第記述予定
-
-キーの変更についてはご存知「Karabiner」を使う。
-
+自宅用に購入次第記述予定<br>
+キーの変更についてはご存知「Karabiner」を使う。<br>
 <https://pqrs.org/osx/karabiner/index.html.ja>
