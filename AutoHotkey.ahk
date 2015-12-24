@@ -16,18 +16,18 @@ SetTitleMatchMode,2
 ;
 vk1Dsc07B::+vk1Dsc07B	;無変換 	-> 半角英数
 vk1Csc079::vkF2sc070	;変換		-> かな
-LWin::LCtrl		        ;左windows	-> 左Control
+LWin::LCtrl		;左windows	-> 左Control
 Capslock::Ctrl	    	;Capslock	-> Ctrl
-sc03a::Ctrl	        	;英数		-> Ctrl
-RAlt::Ctrl	        	;右ALT		-> Ctrl
+sc03a::Ctrl	        ;英数		-> Ctrl
+RAlt::Ctrl	        ;右ALT		-> Ctrl
 
 
 
 ;--------------------------------------------
 ;	KEYBIND
 ;--------------------------------------------
-^k::Send,{vk1Dsc07B}	;Ctrl+k	 -> 無変換
-#o::Reload		        ;Win + o -> AHKリロード
-
-
-
+^k::Send,{vk1Dsc07B}	;Ctrl + k	-> 無変換
+^j::Send,^u		;Ctrl + j	-> ひらがな変換
+^l::Send,^p		;Ctrl + l	-> 全角英数変換
+^;::Send,^o		;Ctrl + l	-> 半角変換
+#o::Reload		;Win  + o 	-> AHKリロード
