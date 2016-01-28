@@ -62,6 +62,8 @@ Macで使用する場合は、mac用ドライバが必要。
 左ALTキーと左◇(ダイア)キーを入れ替える。
 
 ### 「Karabiner」設定
+
+まずは以下からダウンロードして使う。
 <https://pqrs.org/osx/karabiner/index.html.ja>
 
 ### コマンドキーの動作を優先モード(★おすすめ)
@@ -73,4 +75,4 @@ Macで使用する場合は、mac用ドライバが必要。
 ## HHKB Tips
 
 ・ynergyを使っていると「英数」「かな」切り替えの動作が不安定になることがあるので、
-ハード型のKVMを使うといい。(windows-macで確認)S
+ハード型のKVMを使うといい。(windows-macで確認)
