@@ -1,10 +1,18 @@
 # HHKB Professional JP
 
 HHKB用の設定・備忘録を置いて捗るためのひとりプロジェクト。
-Macで使用する場合は、mac用ドライバが必要。
-<https://www.pfu.fujitsu.com/hhkeyboard/macdownload.html>
 
-基本的にはwindows7用に使用。
+## キーボード側の設定
+### DIPスイッチ
+1. OFF (KVMでMacと併用の場合はON)
+2. ON
+3. OFF
+4. OFF
+5. ON
+6. OFF
+
+### キートップの変更
+左ALTキーと左◇(ダイア)キーを入れ替える。
 
 ## キーバインド
 IME関係以外はAutoHotkeyを使う。
@@ -34,9 +42,16 @@ IMEプロパティ -> 編集操作 -> キー設定 編集
 お手軽レジストリ変更ツール
 <http://www.forest.impress.co.jp/library/software/changekey/>
 
+
+
+## Macについて
+
+Macで使用する場合は、mac用ドライバが必要。
+<https://www.pfu.fujitsu.com/hhkeyboard/macdownload.html>
+
 ## キーボード側の設定
 ### DIPスイッチ
-1. OFF (Macの場合はON)
+1. ON
 2. ON
 3. OFF
 4. OFF
@@ -46,9 +61,18 @@ IMEプロパティ -> 編集操作 -> キー設定 編集
 ### キートップの変更
 左ALTキーと左◇(ダイア)キーを入れ替える。
 
+### 「Karabiner」設定
 
-## Macについて
-自宅用に購入次第記述予定
-
-キーの変更については「Karabiner」を使う。
+まずは以下からダウンロードして使う。
 <https://pqrs.org/osx/karabiner/index.html.ja>
+
+### コマンドキーの動作を優先モード(★おすすめ)
+オンにして⌘キー空打ちでも「英数」「かな」を動作させる。
+
+### Use PC Style Copy/Pasteをオン
+オンにすることでPCのキーバインドのControl+C,Control+V,Control+Xが使えるようになる。
+
+## HHKB Tips
+
+・ynergyを使っていると「英数」「かな」切り替えの動作が不安定になることがあるので、
+ハード型のKVMを使うといい。(windows-macで確認)
