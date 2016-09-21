@@ -26,8 +26,8 @@ RAlt::Ctrl	        ;右ALT		-> Ctrl
 ;--------------------------------------------
 ;	KEYBIND
 ;--------------------------------------------
-^k::Send,{vk1Dsc07B}	;Ctrl + k	-> 無変換
-^j::Send,^u		;Ctrl + j	-> ひらがな変換
-^l::Send,^p		;Ctrl + l	-> 全角英数変換
-^;::Send,^o		;Ctrl + l	-> 半角変換
-#o::Reload		;Win  + o 	-> AHKリロード
+^k::Send,{vk1Dsc07B}	;Ctrl+k	 -> 無変換
+^j::Send,^u		;Ctrl+j	 -> ひらがな変換
+^l::Send,^p		;Ctrl+l	 -> 全角英数変換
+^;::Send,^o		;Ctrl+l	 -> 半角変換
+#o::Reload		;Win + o -> AHKリロード
