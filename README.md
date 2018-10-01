@@ -69,6 +69,10 @@ Macで使用する場合は、mac用ドライバが必要。
 ### コマンドキーの動作を優先モード(★おすすめ)
 オンにして⌘キー空打ちでも「英数」「かな」を動作させる。
 
+### HKKBを接続したらmacbookのキーボードは無効化
+https://github.com/tekezo/Karabiner-Elements/issues/334
+
+
 ### Use PC Style Copy/Pasteをオン
 オンにすることでPCのキーバインドのControl+C,Control+V,Control+Xが使えるようになる。
 
