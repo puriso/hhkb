@@ -67,11 +67,11 @@ Macで使用する場合は、mac用ドライバが必要。
 まずは以下からダウンロードして使う。
 <https://pqrs.org/osx/karabiner/index.html.ja>
 
-### コマンドキーの動作を優先モード(★おすすめ)
-オンにして⌘キー空打ちでも「英数」「かな」を動作させる。
+<img width="999" alt="スクリーンショット 2022-06-27 18 46 14" src="https://user-images.githubusercontent.com/11486268/175913284-4b082855-2484-4c69-833d-f396c9c30de0.png">
 
-### HKKBを接続したらmacbookのキーボードは無効化
-https://github.com/tekezo/Karabiner-Elements/issues/334
+<img width="999" alt="スクリーンショット 2022-06-27 18 46 09" src="https://user-images.githubusercontent.com/11486268/175913334-e9e30d89-7dc0-4fbf-b773-ed0fa182682a.png">
+
+<img width="1006" alt="スクリーンショット 2022-06-27 18 46 26" src="https://user-images.githubusercontent.com/11486268/175913364-5e5fb124-b699-4958-a4b9-ceedd94b5b7f.png">
 
 
 ### Use PC Style Copy/Pasteをオン
