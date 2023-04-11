@@ -8,26 +8,25 @@ SetTitleMatchMode,2
 ;--------------------------------------------
 ;	KEY
 ;--------------------------------------------
-;* ”¼Šp/‘SŠp(PFUƒ}[ƒN)‚ÍAƒŒƒWƒXƒgƒŠ‚ÅLeft WindowsƒL[‚É•ÏX‚·‚é
-;  (AHK’P‘Ì‚¾‚Æ‰Ÿ‚µ‚Á‚Ï‚È‚µ–â‘è‚ª‚Å‚Ä‚µ‚Ü‚¤‚½‚ßB)
-;* ƒL[ƒŒƒWƒXƒgƒŠ•ÏX‚¨‚·‚·‚ßƒc[ƒ‹
+;* åŠè§’/å…¨è§’(PFUãƒžãƒ¼ã‚¯)ã¯ã€ãƒ¬ã‚¸ã‚¹ãƒˆãƒªã§Left Windowsã‚­ãƒ¼ã«å¤‰æ›´ã™ã‚‹
+;  (AHKå˜ä½“ã ã¨æŠ¼ã—ã£ã±ãªã—å•é¡ŒãŒã§ã¦ã—ã¾ã†ãŸã‚ã€‚)
+;* ã‚­ãƒ¼ãƒ¬ã‚¸ã‚¹ãƒˆãƒªå¤‰æ›´ãŠã™ã™ã‚ãƒ„ãƒ¼ãƒ«
 ;  - HHKBCNG.exe  https://www.pfu.fujitsu.com/hhkeyboard/tooldownload.html
-;  - ‚à‚µ‚­‚ÍAChange Key http://www.forest.impress.co.jp/library/software/changekey/
+;  - ã‚‚ã—ãã¯ã€Change Key http://www.forest.impress.co.jp/library/software/changekey/
 ;
-vk1Dsc07B::+vk1Dsc07B	;–³•ÏŠ· 	-> ”¼Šp‰p”
-vk1Csc079::vkF2sc070	;•ÏŠ·		-> ‚©‚È
-LWin::LCtrl		;¶windows	-> ¶Control
+sc07B::sc029	;ç„¡å¤‰æ› 	-> åŠè§’è‹±æ•°
+sc079::sc070	;å¤‰æ›		-> ã‹ãª
+LWin::LCtrl		;å·¦windows	-> å·¦Control
 Capslock::Ctrl	    	;Capslock	-> Ctrl
-sc03a::Ctrl	        ;‰p”		-> Ctrl
-RAlt::Ctrl	        ;‰EALT		-> Ctrl
-
+sc03a::Ctrl	        ;è‹±æ•°		-> Ctrl
+RAlt::Ctrl	        ;å³ALT		-> Ctrl
 
 
 ;--------------------------------------------
 ;	KEYBIND
 ;--------------------------------------------
-^k::Send,{vk1Dsc07B}	;Ctrl+k	 -> –³•ÏŠ·
-^j::Send,^u		;Ctrl+j	 -> ‚Ð‚ç‚ª‚È•ÏŠ·
-^l::Send,^p		;Ctrl+l	 -> ‘SŠp‰p”•ÏŠ·
-^;::Send,^o		;Ctrl+l	 -> ”¼Šp•ÏŠ·
-#o::Reload		;Win + o -> AHKƒŠƒ[ƒh
+^k::Send,{vk1Dsc07B}	;Ctrl+k	 -> ç„¡å¤‰æ›
+^j::Send,^u		;Ctrl+j	 -> ã²ã‚‰ãŒãªå¤‰æ›
+^l::Send,^p		;Ctrl+l	 -> å…¨è§’è‹±æ•°å¤‰æ›
+^;::Send,^o		;Ctrl+l	 -> åŠè§’å¤‰æ›
+#o::Reload		;Win + o -> AHKãƒªãƒ­ãƒ¼ãƒ‰
