@@ -14,28 +14,28 @@ HHKB用の設定・備忘録を置いて捗るためのひとりプロジェク�
 ### キートップの変更
 左ALTキーと左◇(ダイア)キーを入れ替える。
 
-## キーバインド
-IME関係以外はAutoHotkeyを使う。
-IME関係はIMEで設定する。
-AHKで設定した場合、不安定なときがあるがそのときは潔くレジストリを変更してしまう。
+## Windowsについて
+1.AutoHotkeyを使う。AHKで設定した場合、不安定なときがあるがそのときは潔くレジストリを変更してしまう。
+1.ChangeKeyでiniファイルの通り、レジストリを変更する
 
-## IME設定
+
+### IME設定
 IMEプロパティ -> 編集操作 -> キー設定 編集
 で細かい設定ができる。ここでは特に必要なしだが、忘備録として。
 
-## レジストリ変更
+### レジストリ変更
 
 *半角・全角 => IME OFF
 
-## ツール
-### AutoHotKey
+### ツール
+#### AutoHotKey
 <http://ahkscript.org/>
 日本語を扱う場合はUnicode推奨。
 
-#### Wiki
+##### Wiki
 <http://ahkwiki.net/>
 
-### Change Key
+#### Change Key
 お手軽レジストリ変更ツール
 <http://www.forest.impress.co.jp/library/software/changekey/>
 
