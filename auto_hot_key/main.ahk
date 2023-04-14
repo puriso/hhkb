@@ -1,4 +1,5 @@
-﻿;--------------------------------------------
+﻿#Include %A_ScriptDir%\IME.ahk
+;--------------------------------------------
 ;	KEY
 ;--------------------------------------------
 ;* 半角/全角(PFUマーク)は、レジストリでLeft Windowsキーに変更する
@@ -8,7 +9,7 @@
 ;  - もしくは、Change Key http://www.forest.impress.co.jp/library/software/changekey/
 ;
 
-#Include IME.ahk
+
 ;;; 左無変換でIME OFF
 sc07B up::
   IME_SET(0)
